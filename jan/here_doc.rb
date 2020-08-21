@@ -1,7 +1,7 @@
 
 
 def html_generator title 
-<<HTML 
+<<-HTML 
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,7 +13,7 @@ def html_generator title
 <body>
 </body>
 </html>
-HTML 
+HTML
 end
 
-html_generator("My Site")
+p html_generator("My Site")
